@@ -11,11 +11,10 @@ public class Main {
             int toplam = 0;
             while ((line = br.readLine()) != null){
                 int sayilar = Integer.parseInt(line);
-
                 toplam += sayilar;
-
-                System.out.println(toplam);
             }
+            System.out.println(toplam);
+            br.close();
 
 
 
