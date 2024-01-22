@@ -34,7 +34,7 @@ public class DBConn {
 
             connect.commit();
 
-
+                // Bilgileri sorgular...
        //     ResultSet data = st.executeQuery(sql);
        //     System.out.println(st.executeUpdate(insertSQL));
             // ADD SQL
